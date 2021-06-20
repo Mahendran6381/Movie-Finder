@@ -1,10 +1,9 @@
-import React from 'react'
-function App() {
-  return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
-    </div>
-  )
-}
+import React from "react";
+import Main from "./components/main";
+import "./components/styles/style.css";
 
-export default App
+const App = () => {
+  return <Main></Main>;
+};
+
+export default App;
